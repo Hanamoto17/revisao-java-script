@@ -10,9 +10,20 @@ let tabuadainitial = entrada("Write a initial number:")
 
 let tabuadafinal = entrada("Write a final number: ")
 
-let contador
+let contadorGeral = tabuadaI;
 
- while (let contador = 1; contador <=10; contador++) {
-    console.log(`${tabuada} X ${contador} = ${parseint(tabuada * contador)}`);
+ while (contadorGeral  <= tabuadaI) {
+    console.log(`tabuada do${tabuadaI}`);
+    console.log('');
+
+    for (let cont = 1; cont <=10; cont++) {
+        console.log(`${tabuada} x ${cont}= ${parseInt(tabuadaI * cont)}`);
+    }
+
+    tabuadaI++;
+    contadorGeral++;
+    console.log('');
+
+
 }
 
